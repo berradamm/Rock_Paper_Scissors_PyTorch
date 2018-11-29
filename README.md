@@ -3,7 +3,7 @@ Builiding a basic neuronal network with 2 fully connected layers in order to cla
 ## Create a custom dataset
 Taking several pictures of Rock,paper and Scissors with your hand under different angles, light, or background in order to make it a bit strong.
 This a basic NN so no need to keep the original size. For the purpose of making it quick the shape chosen was 32x32 using the file resize.
-
+Dont forget to modify the Path to your your pictures.
 ## Building the NN
 First splitting the dataset into two pieces : Train & Test.
 ### Split dataset
