@@ -4,7 +4,7 @@ Builiding a basic neuronal network with 2 fully connected layers in order to cla
 Taking several pictures of Rock,paper and Scissors with your hand under different angles, light, or background in order to make it a bit strong.
 For the purpose of making it quick the picture were reshaped and the shape chosen was 32x32 using the file resize.
 ```bash
-# Dont forget to modify the Path to your your pictures.
+# Dont forget to modify the Path.
 
 python resize.py
 
