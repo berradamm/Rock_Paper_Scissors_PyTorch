@@ -2,9 +2,9 @@
 Builiding a basic neuronal network with 2 fully connected layers in order to classify 3 hand positions : Rock Paper Scissors
 ## Create a custom dataset
 Taking several pictures of Rock,paper and Scissors with your hand under different angles, light, or background in order to make it a bit strong.
-This a basic NN so no need to keep the original size. For the purpose of making it quick the shape chosen was 32x32 using the file resize.
-Dont forget to modify the Path to your your pictures.
+For the purpose of making it quick the picture were reshaped and the shape chosen was 32x32 using the file resize.
 ```bash
+# Dont forget to modify the Path to your your pictures.
 
 python resize.py
 
@@ -40,6 +40,6 @@ The activation function chosen here was the Selu. It increases the accuracy and 
   ```
 
 ## Accuracy and loss results
-With a 202 pictures in my datasets here is the results and its quite a decent accuracy for a small dataset. 
+With a 202 pictures in my datasets here is the results and it's a decent accuracy for a small dataset. 
 
 ![screenaccuracy](https://user-images.githubusercontent.com/45148200/49187963-6c5dc380-f369-11e8-8522-34c4e09b7c17.PNG)
